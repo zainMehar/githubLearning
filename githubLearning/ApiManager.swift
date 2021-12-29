@@ -16,5 +16,6 @@ class ApiManager{
         
         self.header = header
         self.url = url
+        print("it is Api Manager Initilizer")
     }
 }
