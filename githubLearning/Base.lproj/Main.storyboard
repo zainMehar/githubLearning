@@ -28,12 +28,24 @@
                                     <action selector="didTapGit:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aGS-P7-sTW"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sSH-ga-qeZ">
+                                <rect key="frame" x="10" y="536" width="394" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="5zU-iJ-PJj"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="wVH-Rh-opE" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="6d6-Eg-KaU"/>
+                            <constraint firstItem="sSH-ga-qeZ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="Nka-RD-hOx"/>
+                            <constraint firstItem="sSH-ga-qeZ" firstAttribute="top" secondItem="wVH-Rh-opE" secondAttribute="bottom" constant="71" id="Wp8-v9-bpq"/>
                             <constraint firstItem="wVH-Rh-opE" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Y2U-qb-gaY"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="sSH-ga-qeZ" secondAttribute="trailing" constant="10" id="qyz-0j-8up"/>
                         </constraints>
                     </view>
                 </viewController>
